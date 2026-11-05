@@ -59,7 +59,7 @@ Small, flat tree. The files that carry the contracts:
   `HomeComponent`. Nothing else is routed.
 - `src/app/components/header/header.component.ts` and `header.component.html` - the toolbar. The
   component only supplies `templateUrl: "./header.component.html"`; the header copy, cart bindings,
-  and both `routerLink`s live in the HTML file, and its home-link sentence is the repository's public
+  and `routerLink` bindings live in the HTML file, and its home-link sentence is the repository's public
   attribution string.
 - `src/app/pages/home/` - `home.component.ts` and `.html` (drawer shell with `cols` state) plus
   `components/products-header/` (sort, item count, and the `columnsCountChange` output).
